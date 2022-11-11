@@ -12,6 +12,7 @@ const ProductCard = ({ product }) => {
   return (
     <>
       <Card
+        key={product.id}
         sx={{
           p: 2,
           height: { sm: "50vw", md: "30vw", lg: "30vw", xl: "30vw" },
