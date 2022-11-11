@@ -1,3 +1,7 @@
+Task:
+Choose any four category name from https://fakestoreapi.com/products/categories and use those names as header. Initially each header should have a card (Design the card with your own creativity) filled with title, image and price of the product which will be result of https://fakestoreapi.com/products/category/${categoryName}. Create a button named ADD under each header. By clicking the add button append one new card to that particular header. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
