@@ -9,10 +9,12 @@ const Category = ({ cat }) => {
 
   useLayoutEffect(() => {
     setCount(1);
+    //eslint-disable-next-line
   }, [cat]);
 
   useEffect(() => {
     getCatProducts(cat);
+    //eslint-disable-next-line
   }, [cat, count]);
 
   const getCatProducts = async (cat) => {

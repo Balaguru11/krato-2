@@ -1,6 +1,5 @@
 import React from "react";
 import Category from "../Components/Category";
-import Header from "../Components/Header";
 import { useParams } from "react-router";
 const CategoryPage = () => {
   const catName = useParams().catName;

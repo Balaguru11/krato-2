@@ -17,6 +17,7 @@ import TaskAltIcon from "@mui/icons-material/TaskAlt";
 import MenuIcon from "@mui/icons-material/Menu";
 
 import { useNavigate } from "react-router-dom";
+
 const Header = () => {
   const [cats, setCats] = useState(null);
   const [anchorElNav, setAnchorElNav] = useState(null);
